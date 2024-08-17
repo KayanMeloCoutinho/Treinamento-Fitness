@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d4d3d3;
+    background-color: ;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    background-image: url(imagens/pexels-victorfreitas-841130.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+
+header{
+    background-color: #4F4F4F;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+}
+
+header > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    max-height: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
+}
+
+nav{
+    background-color: #3b3b3b;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.397);
+}
+
+nav > a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+nav > a:hover{
+    background-color:#747272 ;
+    color: #b1b0b0;
+}
+
+main{
+    
+}
+
